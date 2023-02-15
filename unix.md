@@ -13,12 +13,12 @@
 | cd | cp | head | chmod | sort | ps |
 | pwd | mkdir | tail | source | cut | kill |
 | | rmdir | touch | wc | tr | |
-| | rm | nano | | [grep](grep) | |
+| | rm | nano | | [grep](#grep) | |
 | | (pipe) | | | sed | |
 | | > (write to file) | | | | |
 | | < (read from file) | | | | |
 
-### grep
+### grep {#grep}
 used to filter search a file for a particular pattern of characters and display all lines containing the pattern
 #### command
 `grep [options] pattern [files]`
