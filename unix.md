@@ -17,7 +17,7 @@
 | | (pipe) | | | sed | |
 | | > (write to file) | | | | |
 | | < (read from file) | | | | |
-<br>
+
 ### grep
 used to filter search a file for a particular pattern of characters and display all lines containing the pattern
 #### command
