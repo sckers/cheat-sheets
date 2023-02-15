@@ -17,3 +17,24 @@
 | | (pipe) | | | sed | |
 | | > (write to file) | | | | |
 | | < (read from file) | | | | |
+<br>
+### grep
+used to filter search a file for a particular pattern of characters and display all lines containing the pattern
+#### command
+`grep [options] pattern [files]`
+#### options
+-`-c` print a count of the lines matching the pattern
+-`-h` display matched lines but not filenames
+-`-i` ignore case when matching
+-`-l` display filenames only
+-`-n` display matched lines and their line numbers
+-`-v` print all lines that do not match the pattern
+-`-e exp` specifies the expression, can use multiple times
+-`-f file` takes patterns from file, one per line
+-`-E` treats pattern as extended regular expression
+-`-w` match whole word
+-`-o` print only the matched parts of a matching line, each part on a separate line
+-`-A n` prints searched lines and n lines after the result
+-`-B n` prints searched lines and n lines before the result
+-`-C n` prints searched lines and n lines after before the result
+-`-R` search recursively in a directory (replace `[files]` with `[directory]`)
