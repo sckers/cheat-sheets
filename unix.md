@@ -23,18 +23,18 @@ used to filter search a file for a particular pattern of characters and display 
 #### command
 `grep [options] pattern [files]`
 #### options
--`-c` print a count of the lines matching the pattern
--`-h` display matched lines but not filenames
--`-i` ignore case when matching
--`-l` display filenames only
--`-n` display matched lines and their line numbers
--`-v` print all lines that do not match the pattern
--`-e exp` specifies the expression, can use multiple times
--`-f file` takes patterns from file, one per line
--`-E` treats pattern as extended regular expression
--`-w` match whole word
--`-o` print only the matched parts of a matching line, each part on a separate line
--`-A n` prints searched lines and n lines after the result
--`-B n` prints searched lines and n lines before the result
--`-C n` prints searched lines and n lines after before the result
--`-R` search recursively in a directory (replace `[files]` with `[directory]`)
+-`-c` print a count of the lines matching the pattern<br>
+-`-h` display matched lines but not filenames<br>
+-`-i` ignore case when matching<br>
+-`-l` display filenames only<br>
+-`-n` display matched lines and their line numbers<br>
+-`-v` print all lines that do not match the pattern<br>
+-`-e exp` specifies the expression, can use multiple times<br>
+-`-f file` takes patterns from file, one per line<br>
+-`-E` treats pattern as extended regular expression<br>
+-`-w` match whole word<br>
+-`-o` print only the matched parts of a matching line, each part on a separate line<br>
+-`-A n` prints searched lines and n lines after the result<br>
+-`-B n` prints searched lines and n lines before the result<br>
+-`-C n` prints searched lines and n lines after before the result<br>
+-`-R` search recursively in a directory (replace `[files]` with `[directory]`)<br>
