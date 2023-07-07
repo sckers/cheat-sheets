@@ -38,9 +38,9 @@ used to filter search a file for a particular pattern of characters and display 
 -`-B n` prints searched lines and n lines before the result<br>
 -`-C n` prints searched lines and n lines after before the result<br>
 -`-R` search recursively in a directory (replace `[files]` with `[directory]`)<br>
-
+<br>
 ### sed
-`sed -e "s/\s.*//"`
--`-e` expression
--`"s/ / /"` `s` means a substitution, the first `/ /` is the regex expression to search for, the second `/ /` is the text to replace with
--`\s.*` this is a regex expression that searches for whitespace `\s` followed by any character `.` any number of times `*`
+`sed -e "s/\s.*//"`<br>
+-`-e` expression<br>
+-`"s/ / /"` `s` means a substitution, the first `/ /` is the regex expression to search for, the second `/ /` is the text to replace with<br>
+-`\s.*` this is a regex expression that searches for whitespace `\s` followed by any character `.` any number of times `*`<br>
